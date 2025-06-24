@@ -14,6 +14,7 @@ cd lora-qlora-vlm-benchmark
 bash install.sh
 
 # 3. Run benchmark
+conda init
 conda activate lora-qlora-benchmark
 python scripts/run_benchmark.py
 ```
@@ -27,7 +28,8 @@ cd lora-qlora-vlm-benchmark
 REM 2. One-click install
 install.bat
 
-REM 3. Run benchmark  
+REM 3. Run benchmark
+conda init
 conda activate lora-qlora-benchmark
 python scripts/run_benchmark.py
 ```
@@ -41,6 +43,7 @@ cd lora-qlora-vlm-benchmark
 
 # 2. Create conda environment
 conda env create -f environment.yml
+conda init
 conda activate lora-qlora-benchmark
 
 # 3. Install package in development mode
