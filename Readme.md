@@ -1,7 +1,5 @@
 This benchmark provides a **complete, automated comparison** of parameter-efficient fine-tuning methods. With **one-click installation** and **automatic hardware detection**, you can quickly demonstrate the **95% parameter reduction** and **significant memory savings** achieved by LoRA and QLoRA while maintaining model performance.
 
-**Perfect for research demonstrations, ablation studies, and educational purposes!** 🎓
-
 ##  Quick Start
 
 ### Option 1: One-Click Installation (Recommended)
