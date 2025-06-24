@@ -1,0 +1,41 @@
+name: lora-qlora-benchmark
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python>=3.8,<3.12
+  
+  # Core ML dependencies
+  - pytorch>=1.12.0
+  - torchvision>=0.13.0
+  - pytorch-cuda=11.8  # Adjust based on your CUDA version
+  - numpy>=1.21.0
+  
+  # System utilities
+  - psutil>=5.8.0
+  
+  # Image processing
+  - pillow>=8.3.0
+  
+  # Development tools
+  - pip
+  - jupyter
+  - ipython
+  
+  # Optional: Development dependencies
+  - pytest>=6.0.0
+  - black
+  - flake8
+  
+  # Pip dependencies (not available via conda)
+  - pip:
+    - pytest-cov>=3.0.0
+
+# Alternative for different CUDA versions:
+# For CUDA 11.7: pytorch-cuda=11.7
+# For CUDA 11.6: pytorch-cuda=11.6
+# For CPU only: remove pytorch-cuda line
